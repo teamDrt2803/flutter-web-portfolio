@@ -8,23 +8,23 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 List<Skill> skills = [
   Skill(
     skill: "Dart",
-    percentage: 62,
+    percentage: 95,
   ),
   Skill(
-    skill: "Javascript",
-    percentage: 80,
-  ),
-  Skill(
-    skill: "PHP",
-    percentage: 78,
-  ),
-  Skill(
-    skill: "Python",
+    skill: "Java",
     percentage: 90,
   ),
   Skill(
-    skill: "GoLang",
-    percentage: 40,
+    skill: "Kotlin",
+    percentage: 85,
+  ),
+  Skill(
+    skill: "Python",
+    percentage: 50,
+  ),
+  Skill(
+    skill: "PHP",
+    percentage: 50,
   ),
 ];
 
@@ -55,7 +55,7 @@ class SkillSection extends StatelessWidget {
                 Expanded(
                   flex: ScreenHelper.isMobile(context) ? 0 : 2,
                   child: Image.asset(
-                    "assets/person_small.png",
+                    "assets/person.png",
                     width: 300.0,
                   ),
                 ),
@@ -81,7 +81,7 @@ class SkillSection extends StatelessWidget {
                         height: 10.0,
                       ),
                       Text(
-                        "This is all the skills listed below more will be added in due time. This is all the skills listed below more will be added in due time.",
+                        "Below are the list of my coding skills with the level of knowledge I have about them.",
                         style: TextStyle(
                           color: kCaptionColor,
                           height: 1.5,

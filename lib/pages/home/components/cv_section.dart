@@ -59,12 +59,13 @@ class CvSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "BETTER DESIGN,\nBETTER EXPERIENCES",
+                "BETTER CODE,\nBETTER EXPERIENCES",
                 style: GoogleFonts.oswald(
                   color: Colors.white,
                   fontWeight: FontWeight.w900,
                   height: 1.8,
                   fontSize: 18.0,
+                  letterSpacing: 0.9,
                 ),
               ),
               GestureDetector(

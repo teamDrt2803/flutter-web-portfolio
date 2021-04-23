@@ -9,27 +9,20 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 final List<Education> educationList = [
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2019 - PRESENT",
+        "Bachelor of Science in Computer Science\nFrom Vande Mataram Degree College,\nDombivali(west) -421202",
+    linkName: "www.teamdrt.co.in",
+    period: "2018 - PRESENT",
+  ),
+  Education(
+    description: "H.S.C\nFrom Shivaji Shikshan Sansthan,\nGhatkopar East.",
+    linkName: "www.teamdrt.co.in",
+    period: "2016 - 2018",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below.This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2018 - 2019",
-  ),
-  Education(
-    description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2017 - 2018",
-  ),
-  Education(
-    description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2016 - 2017",
+        "S.S.C\nFrom South Indian Association's High School and Jr. College,\nDombivali(west) -421202",
+    linkName: "www.teamdrt.co.in",
+    period: "2016",
   ),
 ];
 
@@ -72,7 +65,7 @@ class EducationSection extends StatelessWidget {
                 Container(
                   constraints: BoxConstraints(maxWidth: 400.0),
                   child: Text(
-                    "A full stack all round developer that does all the job he needs to do at all times. Actually this is a false statement",
+                    "A full stack developer with a 2+ years of experience. Who can provide a solution not a workaround for your problems related to App Development",
                     style: TextStyle(
                       color: Colors.white,
                       height: 1.5,
